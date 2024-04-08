@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .top-container, .bottom-container {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            width: 100%; /* Ensure rows occupy full width */
+        }
+
+        .item {
+            width: calc(25% - 20px); /* 25% width for each item with margin between them */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .item img {
+            width: 100%;
+            height: 200px; /* Adjust the height as needed */
+            object-fit: cover;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .item-info {
+            padding: 10px;
+        }
+
+        .item-info h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .item-info p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-container">
+        <h1>PULP FICTION</h1>
+        <p>Check out our delicious menu of our Juices</p> 
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="item">
+                <img src="b1.jpg" alt="Item 1">
+                <div class="item-info">
+                    <h3>Spinach & Kale</h3>
+                    <p>$5.99</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="b2.jpg" alt="Item 2">
+                <div class="item-info">
+                    <h3>Ginger</h3>
+                    <p>$4.99</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="b3.jpg" alt="Item 3">
+                <div class="item-info">
+                    <h3>Turmeric</h3>
+                    <p>$6.49</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="b4.jpg" alt="Item 4">
+                <div class="item-info">
+                    <h3>Lemon & Ginger</h3>
+                    <p>$3.99</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item">
+                <img src="b5.jpg" alt="Item 5">
+                <div class="item-info">
+                    <h3>Goji Berries</h3>
+                    <p>$7.99</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="b6.jpeg" alt="Item 6">
+                <div class="item-info">
+                    <h3>Acai</h3>
+                    <p>$4.49</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="b7.jpg" alt="Item 7">
+                <div class="item-info">
+                    <h3>Apple, Ginger & Lemon</h3>
+                    <p>$5.49</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="b8.jpeg" alt="Item 8">
+                <div class="item-info">
+                    <h3>Aloe Vera</h3>
+                    <p>$8.49</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <p>Thank you for dining with us! 
+          <h3><a href="index.html" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Home</a></p></h3>
+    </div>
+</body>
+</html>
